@@ -115,7 +115,7 @@ const Index = () => {
       // 调用腾讯云智能体开发平台API
       const response = await axios.post('https://wss.lke.cloud.tencent.com/v1/qbot/chat/sse', {
         session_id: sessionId,
-        bot_app_key: "UwsMfxVGTFbXtjHXWcWLjaBaBHgAoAmhRPByVzHDImSqwudQGUigXUGXOhPKrmTiIbVwAsUvHWzgaCWjqPrEgQbltmPTywrQaaoLuwxChKHlUizTdUoFtFwsOsaBpSaF",
+        bot_app_key: "",
         visitor_biz_id: visitorBizId,
         content: fullContent,
         stream: "disable", // 使用非流式传输，简化处理
